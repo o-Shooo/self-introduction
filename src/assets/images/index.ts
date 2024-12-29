@@ -4,6 +4,7 @@ import typescript from "./typescript.png";
 import python from "./python.png";
 import node from "./node.png";
 import express from "./express.png";
+import nest from "./nest.png";
 import react from "./react.png";
 import azure from "./azure.png";
 import aws from "./aws.png";
@@ -18,6 +19,7 @@ export {
   python,
   node,
   express,
+  nest,
   react,
   azure,
   aws,
