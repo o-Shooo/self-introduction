@@ -1,7 +1,6 @@
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { Career } from "../components/layout/Career";
-import { About } from "../components/layout/About";
 import { Skill } from "../components/layout/Skill";
 import { Box, Image, Flex, Text } from "@chakra-ui/react";
 import so from "../assets/images/so.jpg";
@@ -60,17 +59,11 @@ export const Top: React.FC = () => {
         </Text>
         <Career />
       </Box>
-      <Box id="Skill" textAlign="center">
+      <Box id="Skill" textAlign="center" pb={4}>
         <Text fontSize="6xl" fontWeight="bold">
           Skill
         </Text>
         <Skill />
-      </Box>
-      <Box id="About" textAlign="center">
-        <Text fontSize="6xl" fontWeight="bold">
-          About
-        </Text>
-        <About />
       </Box>
       <Footer />
     </>

@@ -17,7 +17,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import { Link as Scroll } from "react-scroll";
 import { mug } from "../../assets/images";
 
-const Links: string[] = ["Top", "Career", "Skill", "About"];
+const Links: string[] = ["Top", "Career", "Skill"];
 
 export const Header: React.FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
