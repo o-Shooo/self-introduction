@@ -6,6 +6,7 @@ import {
   python,
   node,
   express,
+  nest,
   react,
   azure,
   aws,
@@ -33,6 +34,7 @@ export const Skill: React.FC = () => {
         </Heading>
         <SimpleGrid columns={4} spacing={10} minChildWidth="250px">
           <SkillCard bg="tomato" h="200px" name="express.js" src={express} />
+          <SkillCard bg="tomato" h="200px" name="nest.js" src={nest} />
           <SkillCard bg="tomato" h="200px" name="React.js" src={react} />
         </SimpleGrid>
       </Box>
